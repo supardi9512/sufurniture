@@ -959,6 +959,11 @@ img{
     top: 50% !important;
     left: 50% !important;
   }
+
+  .product .all-product-button,
+  .blog .all-blog-button{
+    width: 100% !important;
+  }
 }
 
 
@@ -996,6 +1001,8 @@ img{
 
 .product .product-content img{
   transition: 1s;
+  display: block;
+  margin: 0 auto;
 }
 
 .product .product-content img:hover{
@@ -1004,7 +1011,7 @@ img{
 
 .product .product-content h4{
   text-align: center;
-  padding: 2px 5px;
+  padding: 2px 10px;
   color: var(--second-color);
   margin-bottom: 0;
 }
@@ -1081,6 +1088,7 @@ img{
 
 .blog .blog-content img{
   transition: 1s;
+  width: 100%;
 }
 
 .blog .blog-content img:hover{
@@ -1089,7 +1097,7 @@ img{
 
 .blog .blog-content h4{
   text-align: center;
-  padding: 2px 5px;
+  padding: 2px 10px;
   color: var(--second-color);;
 }
 
